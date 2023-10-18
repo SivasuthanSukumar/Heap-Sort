@@ -1,0 +1,5 @@
+The provided C++ code demonstrates the implementation of the Heap Sort algorithm. It defines functions for heapifying an array and performing the sorting. 
+
+The `heapify` function recursively organizes a binary tree, ensuring the largest element is at the root. The `heapSort` function builds a max heap and then repeatedly extracts the maximum element to sort the array. The `displayArray` function prints the contents of an array.
+
+In the main program, the user inputs the number of elements and an array. It then displays the original array, sorts it using heap sort, and displays the sorted array. Heap Sort is an efficient comparison-based sorting algorithm with a time complexity of O(n log n) and in-place sorting.
